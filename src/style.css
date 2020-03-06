@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 20vh 70vh 10fr;
+    grid-template-columns: 50vw 50vw;
+    grid-template-areas: "cabecalho cabecalho"
+                        "princ config"
+                        "rodape rodape";
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    margin: auto;
+    background-color: rgb(137, 193, 245);
+    grid-area: cabecalho;
+}
+
+header h1 {
+    display: inline-block;
+    font: bold 60pt Arial;
+    margin: 2% auto auto 2%;
+}
+
+main {
+    width: 48vw;
+    height: 70vh;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    grid-area: princ;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 22%;
+    font: bold 100pt Arial;
+}
+
+aside {
+    width: 48vw;
+    height: 65vh;
+    margin: auto;
+    background-color: #ebebeb;
+    border: 2pt solid rgb(255, 255, 193);
+    border-radius: 20px;
+}
+
+aside h1 {
+    font: bold 30pt Arial;
+    margin-top: 10%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+aside img {
+    width: 10%;
+    display: block;
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    top: 12%;
+    right: 14%;
+}
+
+aside input[type="number"] {
+    display: inline-block;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 100%;
+    text-align: center;
+    font: bold 18pt Arial;
+}
+
+aside label.min {
+    display: inline-block;
+    margin: 8% auto auto 5%;
+}
+
+aside input[type="checkbox"] {
+    width: 5%;
+    height: 5%;
+    margin-left: 2%; 
+}
+
+aside h3 {
+    display: inline-block;
+    font: bold 15pt Arial;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    margin: auto;
+    background-color: rgb(137, 193, 245);
+}
+
+footer h1 {
+    display: inline-block;
+    font: bold 25pt Arial;
+    margin: 1.5% auto auto 10%;
+}
