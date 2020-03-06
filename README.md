@@ -12,5 +12,5 @@ Modelo de relógio de Pomodoro Front-end com JavaScript, HTML e CSS. Este projet
 - Melhor manipulação de grid no CSS.
 - Maior vocabulário de eventos DOM em JavaScript. 
 
-Autor: Rafael Lopes de Melo
+Autor: Rafael Lopes de Melo <br>
 Contato: rafaelmelo.programmer@gmail.com
