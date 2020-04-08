@@ -7,7 +7,7 @@ A ideia para criação deste projeto foi retirada do seguinte repositório: http
 
 Para utilizar ou alterar o app, basta apenas fazer o download dos arquivos e executar o html no browser. Para isto utilize os seguintes comandos:
 
-  $ cd 'diretorio de sua preferencia'
+  $ cd 'diretorio de sua preferencia' <br>
   $ git clone https://github.com/RafaLopesMelo/Pomodoro-s-Clock
 
 ## Tecnologias utilizadas:
