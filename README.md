@@ -19,6 +19,7 @@ Para utilizar ou alterar o app, basta apenas fazer o download dos arquivos e exe
 - Manipulação de áudio e timers em JavaScript.
 - Melhor manipulação de grid no CSS.
 - Maior vocabulário de eventos DOM em JavaScript. 
+<br><br>
 
 Autor: Rafael Lopes de Melo <br>
 Contato: rafaelmelo.programmer@gmail.com
